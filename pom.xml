@@ -1,23 +1,27 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns ="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  
   <modelVersion>4.0.0</modelVersion>
-  <groupId>in.aseemcloud</groupId>
-  <artifactId>01-maven-web-app</artifactId>
+
+  <groupId>in.preetisingh</groupId>
+  <artifactId>preeti-webapp</artifactId>
+  <version>1.0.0</version>
   <packaging>war</packaging>
-  <version>3.0-RELEASE</version>
-  <name>01-maven-cloudaseem-app</name>
-  <url>http://maven.apache.org</url>
- 
+
+  <name>Preeti's Java Maven App</name>
+  <url>https://github.com/PreetiSingh</url>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
     </dependency>
-   
   </dependencies>
+
   <build>
-    <finalName>maven-cloudaseem-app</finalName>
+    <finalName>preeti-webapp</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -27,3 +31,4 @@
     </plugins>
   </build>
 </project>
+
