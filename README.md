@@ -103,9 +103,10 @@ sudo docker version
 
 # Step - 7 : Access Application in Browser #
 
-- **We should be able to access our application** <br/>
 
-URL : http://public-ip:port/
+![image](https://github.com/user-attachments/assets/a7bddc82-1461-4d47-8ff9-da89c00712aa)
+
+
 	
 
 	
